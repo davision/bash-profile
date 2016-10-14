@@ -14,11 +14,11 @@ Bellow example shows theme in action, including .bash_profile configuration with
 
 # What's inside? #
 
-Let's see what you get.
+Let's see what you get among other.
 
 ## Usefull functions ##
 
-1. Jumps into the folder of active Finder window
+__1. Jumps into the folder of active Finder window__
 ```
 cdf() {
 	target=`osascript -e 'tell application "Finder" to if (count of Finder windows) > 0 then get POSIX path of (target of front Finder window as text)'`
@@ -30,7 +30,7 @@ cdf() {
 }
 ```
 
-2. Copies your public key into a clipboard
+__2. Copies your public key into a clipboard__
 ```
 rsa () {
 	pbcopy < ~/.ssh/id_rsa.pub
@@ -38,7 +38,7 @@ rsa () {
 }
 ```
 
-3. Returns total lines of code in given extension files
+__3. Returns total lines of code in given extension files__
 ```
 lines () {
    find . -name '*.$1' | xargs wc -l
@@ -47,12 +47,12 @@ lines () {
 
 ## Usefull aliases ##
 
-1. Open current path in Finder
+__1. Open current path in Finder__
 ```
 alias f='open -a Finder ./'
 ```
 
-2. Moving around
+__2. Moving around__
 ```
 alias cd..='cd ..'
 alias cd...='cd ../..'
