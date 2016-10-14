@@ -6,4 +6,5 @@ This repository includes:
 
 ## Blue Lagoon theme example ##
 
-[[https://github.com/davision/bash-profile/images/blue-lagoon.png|alt=Blue-lagoon]]
+![Blue Lagoon](https://raw.githubusercontent.com/davision/bash-profile/master/images/example.png)
+dsddsdsdsdsdsd
