@@ -18,7 +18,7 @@ Let's see what you get.
 
 ## Usefull functions ##
 
-** 1. Jumps into the folder of active Finder window **
+1. Jumps into the folder of active Finder window
 ```
 cdf() {
 	target=`osascript -e 'tell application "Finder" to if (count of Finder windows) > 0 then get POSIX path of (target of front Finder window as text)'`
@@ -30,7 +30,7 @@ cdf() {
 }
 ```
 
-** 2. Copies your public key into a clipboard **
+2. Copies your public key into a clipboard
 ```
 rsa () {
 	pbcopy < ~/.ssh/id_rsa.pub
@@ -38,7 +38,7 @@ rsa () {
 }
 ```
 
-** 3. Returns total lines of code in given extension files **
+3. Returns total lines of code in given extension files
 ```
 lines () {
    find . -name '*.$1' | xargs wc -l
@@ -47,19 +47,19 @@ lines () {
 
 ## Usefull aliases ##
 
-** 1. Open current path in Finder **
+1. Open current path in Finder
 ```
 alias f='open -a Finder ./'
 ```
 
-** 2. Moving around **
+2. Moving around
 ```
 alias cd..='cd ..'
 alias cd...='cd ../..'
 alias cd....='cd ../../..'
 ```
 
-** 3. Git shortcuts **
+__3. Git shortcuts__
 ```
 alias gs='git status'
 alias add='git add .'
@@ -69,7 +69,7 @@ alias master='git checkout master'
 alias gp='git pull'
 ```
 
-** 4. Vagrant shortcuts **
+__4. Vagrant shortcuts__
 ```
 alias vup='vagrant up'
 alias vhalt='vagrant halt'
