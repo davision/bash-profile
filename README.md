@@ -6,6 +6,8 @@ This repository includes:
 
 Some functions are quite of a personal nature, so please ignore.
 
+Git promt integration is based on **Jim Myhrberg** Git-aware-promt solution fron: https://github.com/jimeh/git-aware-prompt
+
 ## Blue Lagoon theme example ##
 
 Bellow example shows theme in action, including .bash_profile configuration with git integration.
